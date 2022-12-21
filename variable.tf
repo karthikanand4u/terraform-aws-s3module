@@ -3,6 +3,7 @@ variable "bucket_name" {
 }
 variable "region"{
     description = "aws region for s3 bucket"
+}
 
 variable "block_public_acls" {
     description = "acl for restrict access private or public"
